@@ -1,0 +1,2 @@
+# NodeJS build-in packages/modules excluded
+node_modules/
