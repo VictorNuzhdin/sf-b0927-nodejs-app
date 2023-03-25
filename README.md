@@ -3,14 +3,14 @@ For Skill Factory study project (B9, Task B9.2.7)
 
 <br>
 
-### install dependencies without package.json
+### 01. Установка зависимостей вручную
 
 ```bash
 $ npm install jquery
 $ npm install jsdom
 ```
 
-### install dependencies with package.json
+### 01. Установка зависимостей автоматически с помощью package.json
 
 ```bash
 $ npm install
@@ -20,16 +20,16 @@ added 60 packages, and audited 61 packages in 7s
 found 0 vulnerabilities
 ```
 
-### run
+### 02. Запуск приложения
 
 ```bash
 $ node index.js
 ```
 
-### check result
+### 03. Проверка результата по URL http://your_host_ip_address:8000
 
-01 index.html страница приложения ДО изменения DOM с помощью jQuery
+Скриншот1: index.html страница приложения ДО изменения DOM с помощью jQuery
 ![screen](_screens/01_index-page_before.png?raw=true)
 
-02 index.html страница приложения ПОСЛЕ изменения DOM с помощью jQuery
+Скриншот2: index.html страница приложения ПОСЛЕ изменения DOM с помощью jQuery
 ![screen](_screens/02_index-page_after.png?raw=true)
