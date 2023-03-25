@@ -39,9 +39,9 @@ const server = http.createServer((request, response) => {
             $("#jq_message").html("This text generated from Node " + process.version + " by JQuery");
 
             // Return HTML page/code
-            response.write(html_code);            // Returns string of html code
+            //response.write(html_code);            // Returns string of html code
             //response.write(dom);                  // ERROR: Received an instance of JSDOM
-            //response.write(dom.serialize());        // FIX: Serializing dom-object to html-code
+            response.write(dom.serialize());        // FIX: Serializing dom-object to html-code
         }
         response.end();
     }); //<--fs.readFile
