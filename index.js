@@ -1,10 +1,6 @@
 const http = require("http");
 const fs = require("fs");
 
-//const { JSDOM } = require("jsdom");
-//const { window } = new JSDOM("");
-//const $ = require("jquery")(window);
-
 //https://github.com/jsdom/jsdom
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
